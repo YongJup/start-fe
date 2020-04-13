@@ -80,5 +80,3 @@
 // var result = testReg.test(text);
 
 // console.log(result); // true
-
-

@@ -80,9 +80,9 @@
         page.innerHTML = photoIndex + " / " + totalPhotoIndex;
       };
 
-      var totalPhotoIndex = Math.ceil(todayPhoto.length / 3);
-      var photoIndex = 1;
       var photoCols = 3;
+      var totalPhotoIndex = Math.ceil(todayPhoto.length / photoCols);
+      var photoIndex = 1;
       var btnL = document.getElementById("buttonLeft");
       var btnR = document.getElementById("buttonRight");
       var page = document.getElementById("page");

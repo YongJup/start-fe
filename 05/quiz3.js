@@ -6,6 +6,7 @@ var $btnReset = document.querySelector(".reset-btn");
 var $btnToggle = document.querySelector(".toggle-btn");
 var $btnImg = document.querySelector(".image-btn");
 var $textbox = document.querySelector(".txt");
+
 function addRed() {
   var $boxes = document.querySelectorAll(".box");
   $boxes.forEach(function ($box) {
@@ -58,7 +59,7 @@ function toggleBox() {
 
 function printImg() {
   var str =
-    "<img src = 'https://i.imgur.com/69NjYBH.png', alt = 'star image'></img>";
+    "<img src='https://i.imgur.com/69NjYBH.png', alt='star_image'></img>";
   var $boxes = document.querySelectorAll(".box");
   var $newBox;
   console.log($boxes);

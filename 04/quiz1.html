@@ -73,7 +73,8 @@
         for (var i = 0; i < photoCols; i++) {
           imgNum = (photoIndex - 1) * photoCols + i;
           if (imgNum < todayPhoto.length) {
-            str += '<img src="' + todayPhoto[imgNum].img + '"> ';
+            // str += '<img src="' + todayPhoto[imgNum].img + '"> ';
+            str += `<img src="${todayPhoto[imgNum]}">`;
           }
         }
         wrap.innerHTML = str;

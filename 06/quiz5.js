@@ -11,8 +11,6 @@ $boxes.forEach((box) => {
     $clickedBox = event.target;
     offset.x = $clickedBox.offsetLeft - event.clientX;
     offset.y = $clickedBox.offsetTop - event.clientY;
-    console.log("mouse down");
-    console.log($clickedBox);
   });
   box.addEventListener("mouseup", (event) => (isDown = false));
 });

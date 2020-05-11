@@ -32,7 +32,6 @@
 // image[0] = 0;
 // console.log(image);
 
-
 // var data = '';
 // var data1 = null;
 // var data2;

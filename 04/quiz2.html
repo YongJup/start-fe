@@ -25,47 +25,6 @@
       <span class="black"></span>
     //-->
     </div>
-    <script>
-      var board = document.getElementById("board");
-      board.style.height = "400px";
-      board.style.width = "400px";
-
-      for (var i = 0; i < 4; i++) {
-        for (var j = 0; j < 4; j++) {
-          span = document.createElement("span");
-          span.style.display = "inline-block";
-          span.style.height = "100px";
-          span.style.width = "100px";
-          if ((i + j) % 2 == 0) {
-            span.className = "black";
-            span.style.backgroundColor = "black";
-          } else {
-            span.className = "white";
-          }
-          board.appendChild(span);
-        }
-      }
-
-      board.addEventListener("click", function (event) {
-        resetBored();
-        if (event.target !== board) {
-          event.target.style.backgroundColor = "red";
-        }
-      });
-
-      resetBored = function () {
-        var index = 0;
-        for (var i = 0; i < 4; i++) {
-          for (var j = 0; j < 4; j++) {
-            if ((i + j) % 2 == 0) {
-              board.children[index].style.backgroundColor = "black";
-            } else {
-              board.children[index].style.backgroundColor = "white";
-            }
-            index++;
-          }
-        }
-      };
-    </script>
+    <script src="quiz2.js"></script>
   </body>
 </html>

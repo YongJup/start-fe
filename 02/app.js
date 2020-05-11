@@ -1,6 +1,5 @@
 // console.log("app.js");
 
-
 // // Create
 // var todos = ['운동'];
 // var todo = '게임';
@@ -39,7 +38,6 @@
 // console.log(newTodos);
 // console.log(todos);
 
-
 // window.alert('1');
 
 // alert('안녕하세요');
@@ -65,7 +63,7 @@
 
 // (function() {
 //     var a = 'a' ;
-//     console.log(a);   
+//     console.log(a);
 // })();
 
 // function sum(x, y) {

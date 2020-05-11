@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: 'eslint:recommended',
+  extends: ['eslint:recommended', 'airbnb-base', 'prettier'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -14,5 +14,6 @@ module.exports = {
   },
   rules: {
     'no-unused-vars': 'warn',
+    'no-var': 'warn',
   },
 };

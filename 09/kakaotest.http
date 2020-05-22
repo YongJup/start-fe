@@ -1,0 +1,4 @@
+GET "https://dapi.kakao.com/v2/search/web?query=kakao"
+{
+    "Authorization": "KakaoAK 9ecc9a02f9fc014a70cd43b8001371be"
+}

@@ -1,7 +1,10 @@
+import { saveData } from './data-manager';
+
 const $result = document.querySelector('#result');
 
 function render(data) {
   console.log('data :>> ', data);
+  saveData(data);
   const html = data.map((todo, index) => {
     return `<li data-index="${index}">
         <button class="delete">×</button>

@@ -1,5 +1,6 @@
 import todoModel from './todo-model';
 import { render } from './html-render';
+
 const $inputForm = document.querySelector('#input-form');
 const $input = document.querySelector('#input');
 
